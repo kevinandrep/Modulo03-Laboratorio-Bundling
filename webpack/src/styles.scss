@@ -1,0 +1,15 @@
+$background-color-container: rgb(30, 39, 82);
+$text-color: rgb(0, 252, 176);
+$border-color: rgb(212, 255, 72);
+$background-body: rgb(103, 101, 133);
+
+body {
+  background-color: $background-body;
+}
+
+.titulo {
+  background-color: $background-color-container;
+  color: $text-color;
+  border: 2px solid $border-color;
+  border-radius: 6px;
+}
